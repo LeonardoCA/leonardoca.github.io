@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	color: #aac;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: "Palatino Linotype", "New York CE", utopia, serif;
+	padding-left: 0.5em;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: 0.15em;
+	color: #669
+}
+
+h2 {
+	font-size: 1.2em;
+	font-family: "Palatino Linotype", "New York CE", utopia, serif;
+	padding-left: 1em;
+	line-height: 2em;
+	letter-spacing: 0.2em;
+	color: #114;
+}
+
+p {
+	font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+	color: #114;
+	padding: 0.5em;
+	text-align: left;
+	line-height: 150%;
+	background: #dde;
+	font-size: 0.9em;
+	border-top: 1px solid #aac;
+}
+
+#header {
+	background: #fff;
+	text-align: right;
+}
+
+#topbar p {
+	font-size: 1.5em;
+	padding: 0.2em 1em;
+	letter-spacing: 0.1em;
+	border-radius: 6px;
+}
+
+#topbar {
+	background: #DDDDEE;
+	border: 1px solid #aac;
+	border-width: 3px 1px 2px 1px;
+	border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#photo {
+	display: inline;
+	position: relative;
+	float: right;
+	right: 20px;
+	top: 0px;
+	padding: 0px;
+	background: #dde;
+	border: 2px solid #aac;
+	border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#photo img {
+	width: 96px;
+	height: 96px;
+	border: 1px solid #aac;
+	margin: 8px;
+	border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#header,#content {
+	width: 950px;
+	margin: 1em auto;
+	padding: 0em;
+	clear: both;
+}
+
+ul {
+	display: block;
+}
+
+li {
+	text-align: left;
+	list-style: none;
+	color: #114;
+	padding: 0.2em 1.5em;
+}
+
+.infobox {
+	width: 45%;
+	float: left;
+	margin: 1em;
+	border: 2px solid #AAAACC;
+	border-width: 3px 1px 2px 1px;
+	padding-bottom: 1em;
+	background: #eef;
+	border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.infobox h2 {
+	text-align: left;
+}
+
+.infobox p.bold {
+	color: #333;
+	font-weight: bold;
+}
+
+.infobox h1 {
+	color: #669;
+}
+
+.wide {
+	width: 100%
+}
+
+.demo {
+	background: #faf9bc
+}
+
+.clear {
+	clear: both;
+}
+
+.iframe_container {
+	border: 5px solid #CCC;
+	position: relative;
+	background: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.iframe-toggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-hide {
+	display: block !important;
+	position: absolute;
+	left: -10000px;
+	top: -9999px;
+}
